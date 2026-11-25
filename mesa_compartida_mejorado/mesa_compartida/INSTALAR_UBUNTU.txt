@@ -1,0 +1,17 @@
+MESA COMPARTIDA - UBUNTU
+
+1) Descomprime el ZIP.
+2) Abre Terminal dentro de la carpeta mesa_compartida.
+3) Instala dependencias del sistema:
+   sudo apt update
+   sudo apt install -y python3 python3-venv python3-tk
+4) Portal web local:
+   chmod +x iniciar_web.sh
+   ./iniciar_web.sh
+5) Abre http://127.0.0.1:5000
+6) Escritorio (en otra ejecución):
+   chmod +x iniciar.sh
+   ./iniciar.sh
+
+Cuentas demo solo para pruebas: admin/admin123, voluntario1/mesa123, donante1/donante123.
+Cambia las contraseñas antes de usar datos reales. La web escucha solo en 127.0.0.1 por seguridad.
